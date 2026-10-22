@@ -2303,11 +2303,11 @@
           };
 
           img.onerror = function() {
-            alert('ID card image not found. Please ensure assets/virtual_id_card.jpg exists.');
+            alert('ID card image not found. Please ensure assets/my_id.jpg exists.');
           };
 
           // Load the actual ID card image from assets
-          img.src = 'assets/virtual_id_card.jpg?v=' + Date.now();
+          img.src = 'assets/my_id.jpg' + Date.now();
         });
       }
 
